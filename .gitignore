@@ -164,3 +164,4 @@ cython_debug/
 report.html
 output.xml
 log.html
+.png/
