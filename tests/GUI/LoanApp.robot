@@ -11,3 +11,5 @@ Start loan request
     Click Element    //a[@id='request1']
     Close All Browsers
 
+Test keyword 1
+
