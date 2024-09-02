@@ -1,0 +1,14 @@
+{
+    "gender": "MALE",
+    "firstName": "string",
+    "lastName": "string",
+    "address": "string",
+    "zipcode": "string",
+    "city": "string",
+    "dob": "2024-09-01T19:52:00.779Z",
+    "income": 0,
+    "incomeType": "TEMPORARY_CONTRACT",
+    "maritalStatus": "SINGLE",
+    "loanTypeId": 1,
+    "amount": 500
+  }

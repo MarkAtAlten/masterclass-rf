@@ -1,6 +1,6 @@
 *** Settings ***
 # Include import of .resource files or libraries here
-Library    JSONLibrary
+Library    OperatingSystem
 
 *** Variables ***
 # Set global variables here
