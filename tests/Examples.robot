@@ -1,10 +1,12 @@
 *** Settings ***
 # Include import of .resource files or libraries here
-Library    OperatingSystem
+Library     OperatingSystem
+
 
 *** Variables ***
 # Set global variables here
 ${SOME_VARIABLE}    Hello World
+
 
 *** Test Cases ***
 # All your testcases go here
@@ -21,12 +23,10 @@ My Failure
     Should Not Be Equal    1    2
     Fail    Some fail message
 
+
 *** Keywords ***
 Keyword 1
     Log    I am keyword 1
 
 Keyword 2
     Log    ${SOME_VARIABLE}
-
-
-

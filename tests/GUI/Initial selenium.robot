@@ -1,9 +1,10 @@
 *** Settings ***
-Library    SeleniumLibrary
-Library    OperatingSystem
+Library             SeleniumLibrary
+Library             OperatingSystem
 
-Test Setup        Open Browser    https://www.bing.com/    Chrome
-Test Teardown     Close Browser
+Test Setup          Open Browser    https://www.bing.com/    Chrome
+Test Teardown       Close Browser
+
 
 *** Test Cases ***
 Search for Alten on Bing
@@ -25,4 +26,3 @@ Open Google Search for Alten
     Input Text    title:Search    Alten
     Press Key    title:Search    ENTER
     sleep    5s
-    

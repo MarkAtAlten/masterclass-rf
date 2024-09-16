@@ -1,6 +1,7 @@
 *** Settings ***
-Library    SeleniumLibrary
-Library    ../../resources/GUI/helper.py
+Library     SeleniumLibrary
+Library     ../../resources/GUI/helper.py
+
 
 *** Test Cases ***
 Open Google Search for Alten

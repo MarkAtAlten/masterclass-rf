@@ -1,24 +1,24 @@
 *** Test Cases ***
 Testcase 1
-    [Tags]    Smoke
+    [Tags]    smoke
     Log    I am test 1
 
 Testcase 2
-    [Tags]    Regression
+    [Tags]    regression
     Log    I am test 2
 
 Testcase 3
-    [Tags]    Smoke
+    [Tags]    smoke
     Log    I am test 3
 
 Testcase 4
-    [Tags]    Regression
+    [Tags]    regression
     Log    I am test 4
 
 Testcase 5
-    [Tags]    Smoke
+    [Tags]    smoke
     Log    I am test 5
 
 Testcase 6
-    [Tags]    Sanity
+    [Tags]    sanity
     Log    I am test 6
