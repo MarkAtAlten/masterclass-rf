@@ -7,7 +7,7 @@ Test Setup      Setup for UI test
 
 *** Test Cases ***
 UI Exercise 1
-    Fill reasons loan request    Groceries     Mini-loan (minimum €300)
+    Fill reasons loan request    loan_reason=Groceries     loan_type=Mini-loan (minimum €300)
     Confirm Acknowledge Of Knowledge
     Fill Personal Details    FEMALE    Jane    Doe    20/10/1990    Laan 1
     ...       1234AB    Rotterdam    MARRIED    1000    TEMPORARY_CONTRACT

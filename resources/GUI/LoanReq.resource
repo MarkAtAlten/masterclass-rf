@@ -4,7 +4,15 @@ Library    SeleniumLibrary
 
 *** Keywords ***
 Fill reasons loan request
-    [Documentation]    Set's reasons why a loan should be requested on why details page of loanapplication
+    [Documentation]    On the Loan request page fills the details why a loan should be requested
+    ...    Then selects the next button
+    ...
+    ...    `${loan_reason}`: Select the reason to request the loan
+    ...    Valid values are 'Groceries', Investments, Bills, Furniture, Car, House
+    ...
+    ...    `${loan_type}`: Select the desired loan type
+    ...    
+    ...    `${amount}`: Sets the amount for the loan request
     [Arguments]    ${loan_reason}    ${loan_type}    ${amount}=300
     Click Element    //a[@id='request1']
     BuiltIn.Sleep    1
@@ -16,6 +24,7 @@ Fill reasons loan request
     Click button    id:next1
 
 Confirm Acknowledge Of Knowledge
+    [Documentation]    Select's the button to confirm I have knowledge about loan's
     Click element    xpath://label/input[@value="yes"]
     Click button    id:next2
 
