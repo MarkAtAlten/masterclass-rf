@@ -1,9 +1,18 @@
 *** Settings ***
 Library     SeleniumLibrary
 Library     ../../resources/GUI/helper.py
+Library     ../../resources/Myclass.py
 
 
 *** Test Cases ***
+My printing testcase
+    Log    Hello world
+    Print Something    Hello world
+    helper.Print Something    Hello world
+
+my testcase
+    Myclass.Print Hello World
+
 Open Google Search for Alten
     Open Browser    https://www.google.com/    Chrome
     Click Button    id:L2AGLb
